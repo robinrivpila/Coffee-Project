@@ -15,6 +15,7 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 
 3. **Sales Count for Each Product**  
    How many units of each coffee product have been sold?
+<img width="1400" height="752" alt="image" src="https://github.com/user-attachments/assets/3bac2af3-33d1-4efa-ac86-aa5689af8a7c" />
 
 4. **Average Sales Amount per City**  
    What is the average sales amount per customer in each city?
