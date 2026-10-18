@@ -40,19 +40,19 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 ## Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
 
-**City 1: Pune**  
-1. Average rent per customer is very low.  
-2. Highest total revenue.  
-3. Average sales per customer is also high.
+City 1: Pune
+1. Has the highest total revenue 1.25M
+2. Has relatively low rent ~300/cust
+3. High average sale per customer
 
-**City 2: Delhi**  
-1. Highest estimated coffee consumers at 7.7 million.  
-2. Highest total number of customers, which is 68.  
-3. Average rent per customer is 330 (still under 500).
+City 2: Jaipur
+1. Highest total customers at 69
+2. Revenue still high at 803k
+3. Low Rent (156.52)
 
-**City 3: Jaipur**  
-1. Highest number of customers, which is 69.  
-2. Average rent per customer is very low at 156.  
-3. Average sales per customer is better at 11.6k.
+City 3: Delhi
+1. Low rent (under 500)
+2. Highest amount of estimated coffee consumers (lots of potential)
+3. Revenue still relatively high
 
 ---
