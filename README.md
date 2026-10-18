@@ -25,17 +25,19 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 
 6. **Top Selling Products by City**  
    What are the top 3 selling products in each city based on sales volume?
+   <img width="933" height="770" alt="image" src="https://github.com/user-attachments/assets/9cd4494e-62c9-4cec-8fdb-f2f0b12b943e" />
 
-7. **Customer Segmentation by City**  
+
+8. **Customer Segmentation by City**  
    How many unique customers are there in each city who have purchased coffee products?
 
-8. **Average Sale vs Rent**  
+9. **Average Sale vs Rent**  
    Find each city and their average sale per customer and avg rent per customer
 
-9. **Monthly Sales Growth**  
+10. **Monthly Sales Growth**  
    Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
 
-10. **Market Potential Analysis**  
+11. **Market Potential Analysis**  
     Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated  coffee consumer
     
 
