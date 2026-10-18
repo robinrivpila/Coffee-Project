@@ -14,12 +14,12 @@ ORDER BY (population * .25) DESC;
 
 -- Total Revenue from Coffee Sales
 -- 2. What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
-SELECT city_name, SUM(total) AS total_revenue_Q4
+SELECT ci.city_name, SUM(s.total) AS total_revenue_Q4
 FROM sales AS s
 JOIN customers as c ON s.customer_id = c.customer_id
 JOIN city AS ci ON c.city_id = ci.city_id
 WHERE sale_date BETWEEN '2023-10-01' AND '2023-12-31'
-GROUP BY c.city_name
+GROUP BY ci.city_name
 ORDER BY SUM(total) DESC;
 
 -- Sales count for each product
@@ -174,3 +174,20 @@ FROM city_rent AS cr
 JOIN city_table AS ct
 ON cr.city_name = ct.city_name
 ORDER BY 2 DESC;
+
+/*
+-- RECOMMENDATION:
+City 1: Pune
+1. Has the highest total revenue 1.25M
+2. Has relatively low rent ~300/cust
+3. High average sale per customer
+
+City 2: Jaipur
+1. Highest total customers at 69
+2. Revenue still high at 803k
+3. Low Rent (156.52)
+
+City 3: Delhi
+1. Low rent (under 500)
+2. Highest amount of estimated coffee consumers (lots of potential)
+3. Revenue still relatively high
