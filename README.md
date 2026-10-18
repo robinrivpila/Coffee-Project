@@ -30,6 +30,7 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 
 8. **Customer Segmentation by City**  
    How many unique customers are there in each city who have purchased coffee products?
+<img width="1195" height="770" alt="image" src="https://github.com/user-attachments/assets/1d37f45b-7c71-4629-b32c-9d4880e8e55a" />
 
 9. **Average Sale vs Rent**  
    Find each city and their average sale per customer and avg rent per customer
