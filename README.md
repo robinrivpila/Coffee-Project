@@ -11,6 +11,7 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 
 2. **Total Revenue from Coffee Sales**  
    What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
+<img width="1239" height="770" alt="image" src="https://github.com/user-attachments/assets/e317c0b9-2e84-4b4a-917a-5f4fe95ef92d" />
 
 3. **Sales Count for Each Product**  
    How many units of each coffee product have been sold?
